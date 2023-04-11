@@ -132,7 +132,6 @@ def patch_vaccines_fail(person, vaccine, new_params):
             score += 2
 
     elif 'vaccine_type' in new_params:
-        print(1)
         if body['vaccine_type'] == ['can\'t be blank']:
             score += 2
 
